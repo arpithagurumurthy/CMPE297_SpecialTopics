@@ -1,0 +1,39 @@
+# SimCLR implementation using TensorFlow - 2
+
+SimCLR is a self supervised learning method. 
+Self-supervised learning is a learning technique where the training data is automatically labeled by finding and exploiting correlations between different input features
+
+It uses Contrastive learning approaches, where representations are learned by contrasting positive pairs against negative pairs.
+
+***NOTE: All the notebook needs to be run on GPU***
+
+The colab also experiments with wandb:
+Weights & Biases is the machine learning platform to build better models faster. W&B uses lightweight, interoperable tools to quickly track experiments, version and iterate on datasets, evaluate model performance, reproduce models, visualize results and spot regressions, and share findings.
+
+## Dataset
+Subset of ImageNet: https://github.com/thunderInfy/imagenet-5-categories
+
+## Implementation:
+
+**Model Architecture:**
+
+**Contrastive Learning process - SimCLR:**
+
+**Model Evaluation**
+
+Linear model - With resnet_simclr.layers[-2]
+
+Linear model - With resnet_simclr.layers[-4]
+
+Linear model - With resnet_simclr.layers[-6]
+
+With only the base encoder network - without any non-linear projections
+
+Representations with one hidden layer - ReLu
+
+Representations with 2 hidden layers - ReLu
+
+## References:
+1. https://github.com/sayakpaul/SimCLR-in-TensorFlow-2
+2. https://docs.wandb.ai/
+3. https://medium.com/analytics-vidhya/understanding-simclr-a-simple-framework-for-contrastive-learning-of-visual-representations-d544a9003f3c
