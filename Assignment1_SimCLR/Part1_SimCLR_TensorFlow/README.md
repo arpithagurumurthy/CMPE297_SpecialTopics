@@ -25,6 +25,13 @@ Subset of ImageNet: https://github.com/thunderInfy/imagenet-5-categories
 
 <img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment1_SimCLR/Part1_SimCLR_TensorFlow/ScreenShots/ContrastiveLearning_2.png" width="400">
 
+* Training is done using SimCLR framework for 200 epochs.
+* Hyperparameter tuning:
+  * Temperature (tau) (I used 0.1)
+  * Mix and match between the different augmentation policies shown in the paper and the strength of the color distortion.
+  * Different projection heads.
+
+
 **Model Evaluation**
 
 Linear model - With resnet_simclr.layers[-2]
@@ -50,6 +57,8 @@ Representations with one hidden layer - ReLu
 Representations with 2 hidden layers - ReLu
 
 <img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment1_SimCLR/Part1_SimCLR_TensorFlow/ScreenShots/2_relu.png" width="400">
+
+**SimCLR benefits from using large amounts of data**
 
 ## References:
 1. https://github.com/sayakpaul/SimCLR-in-TensorFlow-2

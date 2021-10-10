@@ -7,10 +7,7 @@ It uses Contrastive learning approaches, where representations are learned by co
 
 *Colab Pro was used to execute the implementation*
 
-# Main article used as Reference:
-https://medium.com/the-owl/simclr-in-pytorch-5f290cb11dd7
-
-# Dataset:
+## Dataset:
 CIFAR10 dataset
 *Note: Authors of the original simclr paper used this dataset too*
 
@@ -34,4 +31,7 @@ CIFAR10 dataset
 
 <img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment1_SimCLR/Part2_SimCLR_Pytorch/ScreenShots/Training_Loss.png" width="400">
 
+## Main article used as Reference:
+1. https://medium.com/the-owl/simclr-in-pytorch-5f290cb11dd7
+2. https://github.com/sadimanna/simclr_pytorch
 

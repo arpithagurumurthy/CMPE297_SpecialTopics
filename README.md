@@ -1,2 +1,6 @@
 # CMPE297_SpecialTopics
-SJSU coursework submissions
+SJSU Advanced Deep Learning coursework submissions
+
+1. Assignment1_SimCLR: This folder has SimCLR implementation using TensorFlow and Pytorch.  
+
+
