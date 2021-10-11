@@ -23,10 +23,10 @@ Following tasks have been implemented:
 
 **Results: 
 
-<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment2_Perceiver/Part1_Perceiver/Time_taken.png">
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment2_Perceiver/Part2_PerceiverIO/golden_retriever.png" width = 500>
 We can see the top 5 labels with the probabilities displayed with the top probality for golden retriever precisely.
 
-<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment2_Perceiver/Part1_Perceiver/Time_taken.png">
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment2_Perceiver/Part2_PerceiverIO/pomegranate.png" width = 500>
 We can see the top 5 labels with the probabilities displayed with the top probality for pomegranate precisely.
 
 
