@@ -60,12 +60,10 @@ https://storage.googleapis.com/perceiver_io/optical_flow_checkpoint.pystate
 
 **Results:**
 
-<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment2_Perceiver/Part2_PerceiverIO/pomegranate.png" width = 500>
+We can see in the image how optical flow is capturing the motion of individual pixels on the image plane. It often serves as a good approximation of the true physical motion projected onto the image plane.
 
-Optical flow - the motion of individual pixels on the image plane. It often serves as a good approximation of the true physical motion projected onto the image plane.
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment2_Perceiver/Part2_PerceiverIO/optical_flow.png" width = 500>
 
-
-* Video autoencoding
 
 ## **References**
 * https://medium.com/analytics-vidhya/perceiver-io-a-general-architecture-for-structured-inputs-outputs-4ad669315e7f
