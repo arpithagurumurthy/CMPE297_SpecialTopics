@@ -42,5 +42,6 @@ Training results:
 * https://colab.research.google.com/github/keras-team/keras-io/blob/master/examples/vision/ipynb/perceiver_image_classification.ipynb
 * https://arxiv.org/pdf/2103.03206.pdf
 * https://www.cs.toronto.edu/~kriz/cifar.html
+* https://www.apache.org/licenses/LICENSE-2.0
 
 
