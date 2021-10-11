@@ -28,12 +28,13 @@ The hyperparameter values are -
 
 Training results:
 
-<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment1_SimCLR/Part1_SimCLR_TensorFlow/ScreenShots/resnet_simclr_layers[-2].png" width="400">
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment2_Perceiver/Part1_Perceiver/Time_taken.png">
 
 * After 35 epochs, the Perceiver model achieves around 50% accuracy on the test data.
 * Best accuracy:
   * Test accuracy: 51.62%
   * Test top 5 accuracy: 78.75%
+* Estimated training time is about 7.5 hours on GPU
 
 
 ## **References:**
@@ -41,5 +42,6 @@ Training results:
 * https://colab.research.google.com/github/keras-team/keras-io/blob/master/examples/vision/ipynb/perceiver_image_classification.ipynb
 * https://arxiv.org/pdf/2103.03206.pdf
 * https://www.cs.toronto.edu/~kriz/cifar.html
+* https://www.apache.org/licenses/LICENSE-2.0
 
 
