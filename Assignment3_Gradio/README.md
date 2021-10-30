@@ -49,7 +49,7 @@ Fine-tuning BERT for Sentiment Analysis.
 
 The below screenshot shows the prediction of the finetuned BERT model on Gradio:
 * **Model serving predictions for Sentiment Analysis:**
-<img src="">
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment3_Gradio/Screenshots/Sentiment_Analysis.png">
 
 * **Tensorboard logs for sentiment analysis:**
 <img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment3_Gradio/Screenshots/TensorBoard/SentimentAnalysis_TB.png" width=500>
