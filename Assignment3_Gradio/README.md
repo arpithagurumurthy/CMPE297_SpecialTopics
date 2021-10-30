@@ -15,7 +15,7 @@ The below screenshot shows the prediction of the finetuned Bert model on Gradio:
 * **Model classifying the message as spam**
 <img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment3_Gradio/Screenshots/Spam.png">
 
-* **Model classifying the message as spam**
+* **Model classifying the message as non spam**
 <img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment3_Gradio/Screenshots/Non%20Spam.png">
 
 * **Tensorboard logs for training loss:**
