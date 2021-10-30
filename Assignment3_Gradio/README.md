@@ -1,4 +1,4 @@
-# Fientuning Bert for various NLP tasks, integrating Gradio and Tensorboard
+# Finetuning Bert for various NLP tasks, integrating Gradio and Tensorboard
 
 BERT is one of the most popular transformer-based models
 
