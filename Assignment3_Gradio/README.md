@@ -1,16 +1,65 @@
-# Assignment 3
+# Fientuning Bert for various NLP tasks, integrating Gradio and Tensorboard
 
-BERT and GPT-2 are the most popular transformer-based models
+BERT is one of the most popular transformer-based models
 
-What is model finetuning?
+**Model finetuning**
 
-BERT (Bidirectional Encoder Representations from Transformers) is a big neural network architecture, with a huge number of parameters, that can range from 100 million to over 300 million. So, training a BERT model from scratch on a small dataset would result in overfitting.
+* BERT (Bidirectional Encoder Representations from Transformers) is a huge neural network architecture, with a huge number of parameters, that can range from 100 million to over 300 million. So, training a BERT model from scratch on a small dataset would result in overfitting.
+* It is better to use a pre-trained BERT model that is trained on a huge dataset, as a starting point. We can further train the model on a smaller dataset. This is known as model fine-tuning.
 
-It is better to use a pre-trained BERT model that is trained on a huge dataset, as a starting point. We can further train the model on a smaller dataset. This is known as model fine-tuning.
+## **1. CMPE297_HW3_SpamClassification.ipynb** 
+Implements spam classification for messages using BERT finetuning.
 
-Different Fine-Tuning Techniques
+The below screenshot shows the prediction of the finetuned Bert model on Gradio:
 
-* Training the entire architecture – We can further train the entire pre-trained model on our dataset and feed the output to a softmax layer. In this case, the error is back-propagated through the entire architecture and the pre-trained weights of the model are updated based on the new dataset.
-* Train some layers while freezing others – Another way to use a pre-trained model is to train it partially. What we can do is keep the weights of initial layers of the model frozen while we retrain only the higher layers. We can try and test as to how many layers to be frozen and how many to be trained.
-* Freeze the entire architecture – We can even freeze all the layers of the model and attach a few neural network layers of our own and train this new model. Note that the weights of only the attached layers will be updated during model training.
+* **Model classifying the message as spam**
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment3_Gradio/Screenshots/Spam.png">
 
+* **Model classifying the message as non spam**
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment3_Gradio/Screenshots/Non%20Spam.png">
+
+* **Tensorboard logs for training loss:**
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment3_Gradio/Screenshots/TensorBoard/SpamClassn_TB.png" width=500>
+
+* **Tensorboard logs for validation loss:**
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment3_Gradio/Screenshots/TensorBoard/SpamClassn_TB_Val.png" width=500>
+
+## **2. CMPE297_HW3_TopicModeling.ipynb** 
+
+Implements Contextualized Topic Models - CTMs are a family of topic models that combine the expressive power of BERT embeddings with the usupervised capabilities of topic models to get topics out of documents.
+
+The below screenshot shows the prediction of the finetuned CTM model on Gradio:
+
+* **Model serving predictions for topic modeling:**
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment3_Gradio/Screenshots/Topic_Modeling.png">
+
+* **Tensorboard logs for topic modeling:**
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment3_Gradio/Screenshots/TensorBoard/TopicModeling_TB.png" width=500>
+
+## **3. CMPW297_HW3_TextSummarization.ipynb** 
+
+Uses Encoder-Decoder architecture (BERT2BERT model) to summarize long articles.
+The below screenshot shows the prediction of the BERT2BERT model on Gradio:
+
+* **Model serving predictions for text summzarization:**
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment3_Gradio/Screenshots/Text_Summarization.png">
+
+## **4. CMPE297_HW3_SentimentAnalysis.ipynb** 
+Fine-tuning BERT for Sentiment Analysis.
+
+The below screenshot shows the prediction of the finetuned BERT model on Gradio:
+* **Model serving predictions for Sentiment Analysis:**
+<img src="">
+
+* **Tensorboard logs for sentiment analysis:**
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment3_Gradio/Screenshots/TensorBoard/SentimentAnalysis_TB.png" width=500>
+
+## **5. CMPE297_HW3_EmotionClassn.ipynb** 
+Implementing Text Emotion Classification using LSTM Finetuning
+
+The below screenshot shows the prediction of the finetuned LSTM model on Gradio:
+* **Model serving predictions for Emotion Classification:**
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment3_Gradio/Screenshots/Emotion_Classification.png">
+
+## **References:**
+* https://www.analyticsvidhya.com/blog/2020/07/transfer-learning-for-nlp-fine-tuning-bert-for-text-classification/
