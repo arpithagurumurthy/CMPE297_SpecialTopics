@@ -63,3 +63,4 @@ The below screenshot shows the prediction of the finetuned LSTM model on Gradio:
 
 ## **References:**
 * https://www.analyticsvidhya.com/blog/2020/07/transfer-learning-for-nlp-fine-tuning-bert-for-text-classification/
+* Please note that the other references are mentioned in the notebooks itself.
