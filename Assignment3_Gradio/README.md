@@ -1,4 +1,4 @@
-# Fientuning Bert for various NLP tasks, integrating Gradio and Tensorboard
+# Finetuning Bert for various NLP tasks, integrating Gradio and Tensorboard
 
 BERT is one of the most popular transformer-based models
 
@@ -49,7 +49,7 @@ Fine-tuning BERT for Sentiment Analysis.
 
 The below screenshot shows the prediction of the finetuned BERT model on Gradio:
 * **Model serving predictions for Sentiment Analysis:**
-<img src="">
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment3_Gradio/Screenshots/Sentiment_Analysis.png">
 
 * **Tensorboard logs for sentiment analysis:**
 <img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment3_Gradio/Screenshots/TensorBoard/SentimentAnalysis_TB.png" width=500>
@@ -63,3 +63,4 @@ The below screenshot shows the prediction of the finetuned LSTM model on Gradio:
 
 ## **References:**
 * https://www.analyticsvidhya.com/blog/2020/07/transfer-learning-for-nlp-fine-tuning-bert-for-text-classification/
+* Please note that the other references are mentioned in the notebooks itself.
