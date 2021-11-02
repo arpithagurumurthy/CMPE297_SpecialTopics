@@ -110,6 +110,9 @@ Predictions served by the model created by our deep auto VIML:
 * The above process is using a pretrained model for the defined task - mobile vnet model.
 * Scaling of the images is also automatically handled
 
+## References:
+https://github.com/AutoViML/deep_autoviml
+
 
 
 
