@@ -17,16 +17,20 @@
 * The algorithm works by performing Stochastic Gradient Descent using the difference between weights trained on a mini-batch of never before seen data and the model weights prior to training over a fixed number of meta-iterations.
 
 The below screenshot represents the model architecture:
-<img src="" width=500>
+
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment5/Screenshots/MAML/Model.png" width=500>
 
 The below screenshot represents the model training:
-<img src="" width=500>
+
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment5/Screenshots/MAML/MAML_Training.png" width=300>
 
 The below screenshot represents the model training and test accuracies:
-<img src="" width=500>
+
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment5/Screenshots/MAML/Accuracies.png" width=300>
 
 The below screenshot represents the model predictions:
-<img src="" width=500>
+
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment5/Screenshots/MAML/Predictions.png"  width=500>
 
 
 ## CMPE297_HW5_MMOE.ipynb
@@ -36,10 +40,12 @@ The below screenshot represents the model predictions:
 * **Dataset used:** https://archive.ics.uci.edu/ml/datasets/Census-Income+(KDD)
 
 The below screenshot represents the model architecture:
-<img src="" width=500>
+
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment5/Screenshots/MMOE/Model.png" width=500>
 
 The below screenshot represents the last epoch statistics:
-<img src="" width=500>
+
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment5/Screenshots/MMOE/LastEpoch.png" width=700>
 
 
 ## **Main References:**
