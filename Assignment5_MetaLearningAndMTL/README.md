@@ -18,19 +18,19 @@
 
 The below screenshot represents the model architecture:
 
-<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment5/Screenshots/MAML/Model.png" width=500>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment5_MetaLearningAndMTL/Screenshots/MAML/Model.png" width=500>
 
 The below screenshot represents the model training:
 
-<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment5/Screenshots/MAML/MAML_Training.png" width=300>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment5_MetaLearningAndMTL/Screenshots/MAML/MAML_Training.png" width=300>
 
 The below screenshot represents the model training and test accuracies:
 
-<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment5/Screenshots/MAML/Accuracies.png" width=300>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment5_MetaLearningAndMTL/Screenshots/MAML/Accuracies.png" width=300>
 
 The below screenshot represents the model predictions:
 
-<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment5/Screenshots/MAML/Predictions.png"  width=500>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment5_MetaLearningAndMTL/Screenshots/MAML/Predictions.png"  width=500>
 
 
 ## CMPE297_HW5_MMOE.ipynb
@@ -41,11 +41,11 @@ The below screenshot represents the model predictions:
 
 The below screenshot represents the model architecture:
 
-<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment5/Screenshots/MMOE/Model.png" width=500>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment5_MetaLearningAndMTL/Screenshots/MMOE/Model.png" width=500>
 
 The below screenshot represents the last epoch statistics:
 
-<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment5/Screenshots/MMOE/LastEpoch.png" width=700>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment5_MetaLearningAndMTL/Screenshots/MMOE/LastEpoch.png" width=700>
 
 ## CMPW297_HW5_Avalanche.ipynb
 
