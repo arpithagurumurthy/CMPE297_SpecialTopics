@@ -47,6 +47,12 @@ The below screenshot represents the last epoch statistics:
 
 <img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment5/Screenshots/MMOE/LastEpoch.png" width=700>
 
+## CMPW297_HW5_Avalanche.ipynb
+
+* CL consists of algorithms that learn about the external world continuously and adaptively through time, enabling the incremental1development of ever more complex skills and knowledge. 
+* Rather than assuming a fixed and representative training set available a priori, as usually done in regularML, CL algorithms deal with a possibly non iid and unlimited stream of data or tasks.
+* The rationale behind CL is learning efficiently in an online manner and without forgetting previously learned concepts
+
 
 ## **Main References:**
 * https://keras.io/examples/vision/reptile/
@@ -55,5 +61,7 @@ The below screenshot represents the last epoch statistics:
 * https://en.wikipedia.org/wiki/Multi-task_learning#:~:text=Multitask%20Learning%20is%20an%20approach,tasks%20as%20an%20inductive%20bias.&text=In%20the%20classification%20context%2C%20MTL,tasks%20by%20learning%20them%20jointly.
 * https://towardsdatascience.com/multi-task-learning-with-multi-gate-mixture-of-experts-b46efac3268
 * https://www.youtube.com/watch?v=Dweg47Tswxw
+* https://medium.com/@NataliaDiazRodr/conceiving-avalanche-a-comprehensive-framework-for-continual-learning-research-d8b6820ab5e0
+* https://github.com/ContinualAI/avalanche
 
 
