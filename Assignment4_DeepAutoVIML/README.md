@@ -18,23 +18,23 @@ deep_autoviml is a powerful deep learning library with the goal of making it eas
 
 Uses the churn dataset available at : https://raw.githubusercontent.com/srivatsan88/YouTubeLI/master/dataset/WA_Fn-UseC_-Telco-Customer-Churn.csv
 
-<img src="" width=500>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment4_DeepAutoVIML/Screenshots/Tabular/Churn_dataset.png" width=500>
 
 Below screenshot shows how the deep auto VIML analyses the columns of the above dataset:
 
-<img src="" width=500>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment4_DeepAutoVIML/Screenshots/Tabular/Churn_Analysis_DeepAutoVIML.png" width=500>
 
 The deep auto VIML finds the below hyperparameters to be the best amongst all the searches:
 
-<img src="" width=500>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment4_DeepAutoVIML/Screenshots/Tabular/BestHyperparameters_Churn.png" width=300>
 
 The training and validation loss and accuracy curves are as follows:
 
-<img src="" width=500>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment4_DeepAutoVIML/Screenshots/Tabular/Churn_loss_acc.png" width=500>
 
 The confusion matrices for training and validation are as follows:
 
-<img src="" width=500>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment4_DeepAutoVIML/Screenshots/Tabular/ConfusionMatrix_Churn.png" width=500>
 
 **The following steps are happening:**
 
@@ -55,23 +55,23 @@ Uses the twitter sentiment dataset available at : https://www.kaggle.com/arkhosh
 
 Below screenshot shows how the deep auto VIML analyses the columns of the above dataset:
 
-<img src="" width=500>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment4_DeepAutoVIML/Screenshots/Text/Tweet_analysis.png" width=500>
 
 Below screenshot shows how the deep auto VIML analyses vocabulary size of input and the given size to create embeddings:
 
-<img src="" width=500>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment4_DeepAutoVIML/Screenshots/Text/Tweet_embedding.png" width=500>
 
 The deep auto VIML finds the below hyperparameters to be the best amongst all the searches:
 
-<img src="" width=500>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment4_DeepAutoVIML/Screenshots/Text/BestHyperparameters_Tweet.png" width=300>
 
 The training and validation loss and accuracy curves are as follows:
 
-<img src="" width=500>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment4_DeepAutoVIML/Screenshots/Text/Tweet_loss_acc.png" width=500>
 
 The confusion matrices for training and validation are as follows:
 
-<img src="" width=500>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment4_DeepAutoVIML/Screenshots/Text/Tweet_confusionMatrix.png" width=500>
 
 **The following steps are happening:**
 
@@ -91,24 +91,27 @@ Uses the rock paper scissors dataset available at : https://www.kaggle.com/drgfr
 
 Model input and model training by deep auto VIML are as follows:
 
-<img src="" width=500>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment4_DeepAutoVIML/Screenshots/Images/ModelTraining_rockpaper.png" width=500>
 
 Model architecture as chosen by deep auto VIML as follows:
 
-<img src="" width=500>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment4_DeepAutoVIML/Screenshots/Images/ModelArchi_rockpaper.png" width=500>
 
 The training and validation loss and accuracy curves are as follows:
 
-<img src="" width=500>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment4_DeepAutoVIML/Screenshots/Images/rockpaperscissor_loss_acc.png" width=500>
 
 Predictions served by the model created by our deep auto VIML:
 
-<img src="" width=500>
+<img src="https://github.com/arpithagurumurthy/CMPE297_SpecialTopics/blob/main/Assignment4_DeepAutoVIML/Screenshots/Images/Predictions_rockpaper.png" width=500>
 
 **Points to note:**
 
 * The above process is using a pretrained model for the defined task - mobile vnet model.
 * Scaling of the images is also automatically handled
+
+## References:
+https://github.com/AutoViML/deep_autoviml
 
 
 
